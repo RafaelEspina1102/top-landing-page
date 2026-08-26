@@ -1,3 +1,41 @@
 body {
   font-family: Roboto;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-link {
+  display: flex;
+  gap: 18px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+  padding: 50px 0;
+  color: #f9faf8;
+}
+
+#leopard-gecko {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
 }
