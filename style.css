@@ -7,6 +7,14 @@ ul {
   list-style-type: none;
 }
 
+.information button {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 4px;
+  padding: 8px 24px;
+  border: 1px solid #3882f6;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -139,4 +147,9 @@ ul {
   text-align: center;
   padding: 8px;
   color: white;
+}
+
+.first-veldora {
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
 }
